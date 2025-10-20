@@ -11,7 +11,7 @@ import requests
 # --- Настройки ---
 TELEGRAM_TOKEN = os.getenv("8481954029:AAG93JyOPtyafOD15jbqrDzW5dHa5yrQP8M")
 OPENAI_API_KEY = os.getenv("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")
-RENDER_URL = os.getenv("RENDER_URL")  # https://<your-app>.onrender.com
+RENDER_URL = os.getenv("https://gpthelper.onrender.com")  # https://gpthelper.onrender.com
 PORT = int(os.getenv("PORT", 5000))
 
 if not TELEGRAM_TOKEN or not OPENAI_API_KEY:
