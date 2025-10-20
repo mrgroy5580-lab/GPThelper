@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: test-gpthelper
-    env: python
-    buildCommand: "echo ok"
-    startCommand: "python -m http.server $PORT"
-
