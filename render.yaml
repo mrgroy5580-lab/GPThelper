@@ -1,6 +1,7 @@
 services:
   - type: web
-    name: gpthelper
+    name: test-gpthelper
     env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python bot.py"
+    buildCommand: "echo ok"
+    startCommand: "python -m http.server $PORT"
+
